@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function () {
     function success() {
       form.reset();
       status.classList.add("success");
-      status.innerHTML = "Thanks!";
+      status.innerHTML = "Thank You!";
     }
   
     function error() {
@@ -43,4 +43,3 @@ window.addEventListener("DOMContentLoaded", function () {
     };
     xhr.send(data);
   }
-  
